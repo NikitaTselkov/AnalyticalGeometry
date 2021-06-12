@@ -1,0 +1,9 @@
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\bin\Debug\netcoreapp3.1\AnalyticalGeometry.deps.json
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\bin\Debug\netcoreapp3.1\AnalyticalGeometry.dll
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\bin\Debug\netcoreapp3.1\AnalyticalGeometry.pdb
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.AssemblyInfo.cs
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.dll
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.pdb
+C:\Users\nikit\source\repos\AnalyticalGeometry\AnalyticalGeometry\obj\Debug\netcoreapp3.1\AnalyticalGeometry.csproj.AssemblyReference.cache

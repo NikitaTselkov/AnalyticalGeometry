@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AnalyticalGeometry
 {
-    public class Point
+    public class Point3D
     {
         public double X { get; set; }
 
@@ -27,24 +27,18 @@ namespace AnalyticalGeometry
             }
         }
 
-        public Point()
+        public Point3D()
         {
             X = 0;
             Y = 0;
             Z = 0;
         }
 
-        public Point(double x, double y, double z)
+        public Point3D(double x, double y, double z)
         {
             X = x;
             Y = y;
             Z = z;
-        }
-
-        public Point(double x, double y)
-        {
-            X = x;
-            Y = y;
         }
 
         public override string ToString()
@@ -52,9 +46,9 @@ namespace AnalyticalGeometry
             return string.Format("({0}; {1}; {2})", X, Y, Z);
         }
 
-        public static Point operator +(Point point1, Point point2)
+        public static Point3D operator +(Point3D point1, Point3D point2)
         {
-            return new Point
+            return new Point3D
             {
                 X = point1.X + point2.X,
                 Y = point1.Y + point2.Y,
@@ -62,9 +56,9 @@ namespace AnalyticalGeometry
             };
         }
 
-        public static Point operator -(Point point1, Point point2)
+        public static Point3D operator -(Point3D point1, Point3D point2)
         {
-            return new Point
+            return new Point3D
             {
                 X = point1.X - point2.X,
                 Y = point1.Y - point2.Y,
@@ -72,9 +66,9 @@ namespace AnalyticalGeometry
             };
         }
 
-        public static Point operator *(Point point1, Point point2)
+        public static Point3D operator *(Point3D point1, Point3D point2)
         {
-            return new Point
+            return new Point3D
             {
                 X = point1.X * point2.X,
                 Y = point1.Y * point2.Y,
@@ -82,9 +76,9 @@ namespace AnalyticalGeometry
             };
         }
 
-        public static Point operator /(Point point1, Point point2)
+        public static Point3D operator /(Point3D point1, Point3D point2)
         {
-            return new Point
+            return new Point3D
             {
                 X = point1.X / point2.X,
                 Y = point1.Y / point2.Y,
